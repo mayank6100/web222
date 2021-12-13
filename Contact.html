@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="error"></div>
+    <form action="https://formspree.io/post" id="form" method="post" >FORM<br>
+       
+     
+        <label for="Name">Name:</label><br>
+        <input type="text" id="Name" name="Name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+       <label for="Address">Address:</label><br>
+        <input type="text" id="Address" name="Address" required><br>
+        <label for="City">City:</label><br>
+        <input type="text" id="City" name="City" required><br>
+        <label for="PostalCode">Postal Code:</label><br>
+        <input type="text" id="PostalCode" name="PostalCode" required><br>
+        
+       
+
+        <!-- radio eductaiostatus -->
+        <input type="radio" id="Question" name="Topic" value="Question" required>
+        <label for="Question">Question</label><br>
+       
+        <input type="radio" id="Comment" name="Topic" value="Comment" required>
+        <label for="Comment">Comment</label><br>
+        
+        <input type="radio" id="Hiring" name="Topic" value="Hiring" required>
+        <label for="Hiring">Hiring</label><br>
+
+        
+
+       
+
+        <!-- buttons -->
+        <input type="submit" value="Submit" required> &emsp;&emsp;&emsp;
+        <input type="reset" value="Reset">
+        <form
+  action="https://formspree.io/f/xnqwqzno"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+
+
+        
+
+
+    </form>
+    
+</body>
+</html>
